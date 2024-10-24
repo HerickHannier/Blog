@@ -45,6 +45,8 @@ li a:hover:not(.active) {
 img {
   float: left;
   margin-left: 5%;
+  widht:48px
+  height:48px
 }
 
 .Nome {
