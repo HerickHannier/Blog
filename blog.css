@@ -1,0 +1,223 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Estilo Geral */
+body {
+  margin: 0;
+  background-color: #202223;
+  font-family: "Open Sans", sans-serif
+}
+.central{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* Inico Nav */
+nav {
+  width: 75%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+  font-size: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+img {
+  float: left;
+  margin-left: 5%;
+}
+
+.Nome {
+  float: left;
+  color: white;
+  margin-left: 0.2%;
+  font-size: 20px;
+  padding-top: -0.5%;
+  margin-top: 1%;
+}
+
+.ultimoNav {
+  float: right;
+  margin-right: 5%;
+}
+/* Fim Nav */
+
+/* Estilos para a segunda página */
+.segundapagina {
+  text-align: left;
+  padding-top: 100px;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+}
+
+.slogan {
+  padding: 50px;
+  width: 100%;
+  background-color: #333;
+}
+
+.letraslogan{
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.titulo-terceira{
+  font-size: 30px;
+  margin-top: 5%;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif
+}
+
+/* Cards Politica */
+.cards-1{
+  display: flex;
+  max-height: 1200;
+}
+
+.card1, .card2, .card3{
+  width: 150px;
+  padding: 50px;
+  margin-top: 5%;
+  flex-direction: row;
+  padding: 150px 70px;
+  margin-left: 5%;
+  background-color: aqua;
+}
+
+.cards-politica{
+  font-size: 27px;
+  margin-right: 50%;
+  color: white;
+  position: relative;
+}
+.linha-politica{
+  padding: 1px;
+  width: 45.7%;
+  margin-left: 1.5%;
+  margin-top: -2.2%;
+  background-color: white;
+}
+/* Fim Cards politica */
+
+/* Inico cards Economia */
+.cards-2{
+  display: flex;
+  max-height: 1200;
+}
+.card4, .card5, .card6{
+  width: 150px;
+  padding: 150px 70px;
+  flex-direction: row;
+  margin-top: 5%;
+  margin-left: 5%;
+  background-color: lightcoral;
+}
+
+.cards-Economia{
+  font-size: 27px;
+  margin-right: 48.4%;
+  color: white;
+  position: relative;
+}
+.linha-Economia{
+  padding: 1px;
+  width: 43.7%;
+  margin-left: 2.9%;
+  margin-top: -2.2%;
+  background-color: white;
+}
+/* Fim cards Economia */
+
+/* Inico cards Esporte */
+.cards-3{
+  display: flex;
+  max-height: 1200;
+}
+.card7, .card8, .card9{
+  width: 150px;
+  padding: 150px 70px;
+  flex-direction: row;
+  margin-top: 5%;
+  margin-left: 5%;
+  background-color: rgb(128, 240, 165);
+}
+
+.cards-Esporte{
+  font-size: 27px;
+  margin-right: 49.2%;
+  color: white;
+  position: relative;
+}
+.linha-Esporte{
+  padding: 1px;
+  width: 44.6%;
+  margin-left: 2.2%;
+  margin-top: -2.2%;
+  background-color: white;
+}
+/* Fim cards Esporte */
+
+/* Inico cards Viagem & Gastronomia */
+.cards-4{
+  display: flex;
+  max-height: 1200;
+}
+.card10, .card11, .card12{
+  width: 150px;
+  padding: 150px 70px;
+  flex-direction: row;
+  margin-top: 5%;
+  margin-left: 5%;
+  background-color: rgb(240, 128, 184);
+}
+
+.cards-ViagemeGastronomia{
+  font-size: 27px;
+  margin-right: 39.1%;
+  color: white;
+  position: relative;
+}
+.linha-ViagemeGastronomia{
+  padding: 1px;
+  width: 34.5%;
+  margin-left: 11.99%;
+  margin-top: -2.2%;
+  background-color: white;
+}
+/* Fim cards Viagem & Gastronomia */
+
+.copy {
+  padding: 35px;
+  width: 96.2%;
+  background-color: #333;
+  margin-top: 5%;
+}
+
+.letrascopy{
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
