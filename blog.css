@@ -1,17 +1,20 @@
 /* Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* Estilo Geral */
 body {
   margin: 0;
   background-color: #202223;
   font-family: "Open Sans", sans-serif
 }
-.central{
+
+.central {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 /* Inico Nav */
 nav {
   width: 75%;
@@ -62,6 +65,7 @@ img {
   float: right;
   margin-right: 5%;
 }
+
 /* Fim Nav */
 
 /* Estilos para a segunda página */
@@ -79,13 +83,13 @@ img {
   background-color: #333;
 }
 
-.letraslogan{
+.letraslogan {
   text-align: center;
   font-size: 25px;
   color: white;
 }
 
-.titulo-terceira{
+.titulo-terceira {
   font-size: 30px;
   margin-top: 5%;
   text-align: center;
@@ -94,12 +98,14 @@ img {
 }
 
 /* Cards Politica */
-.cards-1{
+.cards-1 {
   display: flex;
   max-height: 1200;
 }
 
-.card1, .card2, .card3{
+.card1,
+.card2,
+.card3 {
   width: 150px;
   padding: 50px;
   margin-top: 5%;
@@ -109,27 +115,60 @@ img {
   background-color: aqua;
 }
 
-.cards-politica{
+.card1:hover{
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
+}
+.card2:hover{
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0); 
+}
+.card3:hover{
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
+}
+
+.card1:hover{
+  transform: translate3d(0%,-5%,0);
+  transition: all 0.5;
+}
+.card2:hover{
+  transform: translate3d(0%,-5%,0);
+  transition: all 0.5;
+}
+.card3:hover{
+  transform: translate3d(0%,-5%,0);
+  transition: all 0.5;
+}
+
+.cards-1:hover > :not(:hover){
+  transform:scale(95%);
+  opacity: .7;
+}
+
+.cards-politica {
   font-size: 27px;
   margin-right: 50%;
   color: white;
   position: relative;
 }
-.linha-politica{
+
+.linha-politica {
   padding: 1px;
   width: 45.7%;
   margin-left: 1.5%;
   margin-top: -2.2%;
   background-color: white;
 }
+
 /* Fim Cards politica */
 
 /* Inico cards Economia */
-.cards-2{
+.cards-2 {
   display: flex;
   max-height: 1200;
 }
-.card4, .card5, .card6{
+
+.card4,
+.card5,
+.card6 {
   width: 150px;
   padding: 150px 70px;
   flex-direction: row;
@@ -138,27 +177,60 @@ img {
   background-color: lightcoral;
 }
 
-.cards-Economia{
+.card4:hover{
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
+}
+.card5:hover{
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0); 
+}
+.card6:hover{
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
+}
+
+.card4:hover{
+  transform: translate3d(0%,-5%,0);
+  transition: all 0.5;
+}
+.card5:hover{
+  transform: translate3d(0%,-5%,0);
+  transition: all 0.5;
+}
+.card6:hover{
+  transform: translate3d(0%,-5%,0);
+  transition: all 0.5;
+}
+
+.cards-2:hover > :not(:hover){
+  transform:scale(95%);
+  opacity: .7;
+}
+
+.cards-Economia {
   font-size: 27px;
   margin-right: 48.4%;
   color: white;
   position: relative;
 }
-.linha-Economia{
+
+.linha-Economia {
   padding: 1px;
   width: 43.7%;
   margin-left: 2.9%;
   margin-top: -2.2%;
   background-color: white;
 }
+
 /* Fim cards Economia */
 
 /* Inico cards Esporte */
-.cards-3{
+.cards-3 {
   display: flex;
   max-height: 1200;
 }
-.card7, .card8, .card9{
+
+.card7,
+.card8,
+.card9 {
   width: 150px;
   padding: 150px 70px;
   flex-direction: row;
@@ -167,27 +239,60 @@ img {
   background-color: rgb(128, 240, 165);
 }
 
-.cards-Esporte{
+.card7:hover{
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
+}
+.card8:hover{
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0); 
+}
+.card9:hover{
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
+}
+
+.card7:hover{
+  transform: translate3d(0%,-5%,0);
+  transition: all 0.5;
+}
+.card8:hover{
+  transform: translate3d(0%,-5%,0);
+  transition: all 0.5;
+}
+.card9:hover{
+  transform: translate3d(0%,-5%,0);
+  transition: all 0.5;
+}
+
+.cards-3:hover > :not(:hover){
+  transform:scale(95%);
+  opacity: .7;
+}
+
+.cards-Esporte {
   font-size: 27px;
   margin-right: 49.2%;
   color: white;
   position: relative;
 }
-.linha-Esporte{
+
+.linha-Esporte {
   padding: 1px;
   width: 44.6%;
   margin-left: 2.2%;
   margin-top: -2.2%;
   background-color: white;
 }
+
 /* Fim cards Esporte */
 
 /* Inico cards Viagem & Gastronomia */
-.cards-4{
+.cards-4 {
   display: flex;
   max-height: 1200;
 }
-.card10, .card11, .card12{
+
+.card10,
+.card11,
+.card12 {
   width: 150px;
   padding: 150px 70px;
   flex-direction: row;
@@ -196,30 +301,83 @@ img {
   background-color: rgb(240, 128, 184);
 }
 
-.cards-ViagemeGastronomia{
+.card10:hover{
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
+}
+.card11:hover{
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0); 
+}
+.card12:hover{
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
+}
+
+.card10:hover{
+  transform: translate3d(0%,-5%,0);
+  transition: all 0.5;
+}
+.card11:hover{
+  transform: translate3d(0%,-5%,0);
+  transition: all 0.5;
+}
+.card12:hover{
+  transform: translate3d(0%,-5%,0);
+  transition: all 0.5;
+}
+
+.cards-4:hover > :not(:hover){
+  transform:scale(95%);
+  opacity: .7;
+}
+
+.cards-ViagemeGastronomia {
   font-size: 27px;
   margin-right: 39.1%;
   color: white;
   position: relative;
 }
-.linha-ViagemeGastronomia{
+
+.linha-ViagemeGastronomia {
   padding: 1px;
   width: 34.5%;
   margin-left: 11.99%;
   margin-top: -2.2%;
   background-color: white;
 }
+
 /* Fim cards Viagem & Gastronomia */
 
+/* Inico copy */
 .copy {
-  padding: 35px;
-  width: 96.2%;
+  padding: 15px;
+  width: 98.4%;
   background-color: #333;
   margin-top: 5%;
 }
 
-.letrascopy{
+.letrascopy {
   text-align: center;
   font-size: 15px;
   color: white;
+}
+
+/* Fim copy */
+
+.ad-es,
+.ad-di {
+  color: white;
+  background-color: #2e87cf;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.ad-es {
+  left: 0;
+}
+
+.ad-di {
+  right: 0;
 }
