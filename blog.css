@@ -1,10 +1,11 @@
 /* Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* Estilo Geral */
 body {
   margin: 0;
-  background-color: #202223;
+  background-color: #dedede;
   font-family: "Open Sans", sans-serif
 }
 
@@ -18,12 +19,14 @@ body {
 /* Inico Nav */
 nav {
   width: 75%;
+  text-align: center;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
   overflow: hidden;
   background-color: #333;
 }
@@ -36,20 +39,20 @@ li {
 li a {
   display: block;
   color: white;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  text-align: center;
 }
 
 li a:hover:not(.active) {
   background-color: #111;
 }
 
-img {
+.Logo {
   float: left;
-  margin-left: 5%;
-  width: 48px;
-  height: 48px;
+  margin-left: 27%;
+  width: 200px;
+  height: 200px;
 }
 
 .Nome {
@@ -63,7 +66,7 @@ img {
 
 .ultimoNav {
   float: right;
-  margin-right: 5%;
+  margin-right: 28%;
 }
 
 /* Fim Nav */
@@ -84,8 +87,11 @@ img {
 }
 
 .letraslogan {
-  text-align: center;
-  font-size: 25px;
+   margin-bottom: -5%;
+   margin-top: 3.5%;
+  margin-left: 5%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 90px;
   color: white;
 }
 
@@ -93,60 +99,65 @@ img {
   font-size: 30px;
   margin-top: 5%;
   text-align: center;
-  color: white;
+  color: black;
   font-family: "Open Sans", sans-serif
 }
 
 /* Cards Politica */
 .cards-1 {
   display: flex;
+  margin-left: -13%;
   max-height: 1200;
 }
 
 .card1,
 .card2,
 .card3 {
-  width: 150px;
-  padding: 50px;
+  width: 269px;
   margin-top: 5%;
-  flex-direction: row;
-  padding: 150px 70px;
+  padding: 0px 19px;
   margin-left: 5%;
-  background-color: aqua;
+  position: relative;
+  color: black;
+  background-color: #b4161e;
 }
 
-.card1:hover{
-  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
-}
-.card2:hover{
-  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0); 
-}
-.card3:hover{
+.card1:hover {
   transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
 }
 
-.card1:hover{
-  transform: translate3d(0%,-5%,0);
-  transition: all 0.5;
+.card2:hover {
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
 }
-.card2:hover{
-  transform: translate3d(0%,-5%,0);
-  transition: all 0.5;
+
+.card3:hover {
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
 }
-.card3:hover{
-  transform: translate3d(0%,-5%,0);
+
+.card1:hover {
+  transform: translate3d(0%, -5%, 0);
   transition: all 0.5;
 }
 
-.cards-1:hover > :not(:hover){
-  transform:scale(95%);
+.card2:hover {
+  transform: translate3d(0%, -5%, 0);
+  transition: all 0.5;
+}
+
+.card3:hover {
+  transform: translate3d(0%, -5%, 0);
+  transition: all 0.5;
+}
+
+.cards-1:hover> :not(:hover) {
+  transform: scale(95%);
   opacity: .7;
 }
 
 .cards-politica {
   font-size: 27px;
   margin-right: 50%;
-  color: white;
+  color: black;
   position: relative;
 }
 
@@ -155,7 +166,22 @@ img {
   width: 45.7%;
   margin-left: 1.5%;
   margin-top: -2.2%;
-  background-color: white;
+  background-color: #b4161e;
+}
+
+.imgcard1 {
+  width: 285.5px;
+  height: 259px;
+  margin-top: -8%;
+  margin-left: 0.9%;
+}
+
+.letracard {
+  text-align: left;
+  position: relative;
+  margin-right: -6%;
+  color: white;
+  font-size: 16px;
 }
 
 /* Fim Cards politica */
@@ -163,52 +189,58 @@ img {
 /* Inico cards Economia */
 .cards-2 {
   display: flex;
+  margin-left: -13%;
   max-height: 1200;
 }
 
 .card4,
 .card5,
 .card6 {
-  width: 150px;
-  padding: 150px 70px;
-  flex-direction: row;
+  width: 269px;
   margin-top: 5%;
+  padding: 0px 19px;
   margin-left: 5%;
-  background-color: lightcoral;
+  position: relative;
+  color: black;
+  background-color: #E3A900;
 }
 
-.card4:hover{
-  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
-}
-.card5:hover{
-  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0); 
-}
-.card6:hover{
+.card4:hover {
   transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
 }
 
-.card4:hover{
-  transform: translate3d(0%,-5%,0);
-  transition: all 0.5;
+.card5:hover {
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
 }
-.card5:hover{
-  transform: translate3d(0%,-5%,0);
-  transition: all 0.5;
+
+.card6:hover {
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
 }
-.card6:hover{
-  transform: translate3d(0%,-5%,0);
+
+.card4:hover {
+  transform: translate3d(0%, -5%, 0);
   transition: all 0.5;
 }
 
-.cards-2:hover > :not(:hover){
-  transform:scale(95%);
+.card5:hover {
+  transform: translate3d(0%, -5%, 0);
+  transition: all 0.5;
+}
+
+.card6:hover {
+  transform: translate3d(0%, -5%, 0);
+  transition: all 0.5;
+}
+
+.cards-2:hover> :not(:hover) {
+  transform: scale(95%);
   opacity: .7;
 }
 
 .cards-Economia {
   font-size: 27px;
   margin-right: 48.4%;
-  color: white;
+  color: black;
   position: relative;
 }
 
@@ -217,8 +249,24 @@ img {
   width: 43.7%;
   margin-left: 2.9%;
   margin-top: -2.2%;
-  background-color: white;
+  background-color: #E3A900;
 }
+
+.imgcard2 {
+  width: 285.5px;
+  height: 259px;
+  margin-top: -8%;
+  margin-left: 0.9%;
+}
+
+.letracard {
+  text-align: left;
+  position: relative;
+  margin-right: -6%;
+  color: white;
+  font-size: 16px;
+}
+
 
 /* Fim cards Economia */
 
@@ -226,51 +274,57 @@ img {
 .cards-3 {
   display: flex;
   max-height: 1200;
+  margin-left: -13%;
 }
 
 .card7,
 .card8,
 .card9 {
-  width: 150px;
-  padding: 150px 70px;
-  flex-direction: row;
+  width: 269px;
   margin-top: 5%;
+  padding: 0px 19px;
   margin-left: 5%;
-  background-color: rgb(128, 240, 165);
+  position: relative;
+  color: black;
+  background-color: #228B22 ;
 }
 
-.card7:hover{
-  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
-}
-.card8:hover{
-  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0); 
-}
-.card9:hover{
+.card7:hover {
   transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
 }
 
-.card7:hover{
-  transform: translate3d(0%,-5%,0);
-  transition: all 0.5;
+.card8:hover {
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
 }
-.card8:hover{
-  transform: translate3d(0%,-5%,0);
-  transition: all 0.5;
+
+.card9:hover {
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
 }
-.card9:hover{
-  transform: translate3d(0%,-5%,0);
+
+.card7:hover {
+  transform: translate3d(0%, -5%, 0);
   transition: all 0.5;
 }
 
-.cards-3:hover > :not(:hover){
-  transform:scale(95%);
+.card8:hover {
+  transform: translate3d(0%, -5%, 0);
+  transition: all 0.5;
+}
+
+.card9:hover {
+  transform: translate3d(0%, -5%, 0);
+  transition: all 0.5;
+}
+
+.cards-3:hover> :not(:hover) {
+  transform: scale(95%);
   opacity: .7;
 }
 
 .cards-Esporte {
   font-size: 27px;
   margin-right: 49.2%;
-  color: white;
+  color: black;
   position: relative;
 }
 
@@ -279,60 +333,82 @@ img {
   width: 44.6%;
   margin-left: 2.2%;
   margin-top: -2.2%;
-  background-color: white;
+  background-color:  #228B22;
 }
+
+.imgcard3 {
+  width: 285.5px;
+  height: 259px;
+  margin-top: -8%;
+  margin-left: 0.9%;
+}
+
+.letracard {
+  text-align: left;
+  position: relative;
+  margin-right: -6%;
+  color: white;
+  font-size: 16px;
+}
+
 
 /* Fim cards Esporte */
 
 /* Inico cards Viagem & Gastronomia */
 .cards-4 {
   display: flex;
+  margin-left: -13%;
   max-height: 1200;
 }
 
 .card10,
 .card11,
 .card12 {
-  width: 150px;
-  padding: 150px 70px;
-  flex-direction: row;
+  width: 269px;
   margin-top: 5%;
+  padding: 0px 19px;
   margin-left: 5%;
-  background-color: rgb(240, 128, 184);
+  position: relative;
+  color: black;
+  background-color: #003366;
 }
 
-.card10:hover{
-  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
-}
-.card11:hover{
-  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0); 
-}
-.card12:hover{
+.card10:hover {
   transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
 }
 
-.card10:hover{
-  transform: translate3d(0%,-5%,0);
-  transition: all 0.5;
+.card11:hover {
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
 }
-.card11:hover{
-  transform: translate3d(0%,-5%,0);
-  transition: all 0.5;
+
+.card12:hover {
+  transform: perspective(0px) translateY(-10%) scale(100%) translateZ(0);
 }
-.card12:hover{
-  transform: translate3d(0%,-5%,0);
+
+.card10:hover {
+  transform: translate3d(0%, -5%, 0);
   transition: all 0.5;
 }
 
-.cards-4:hover > :not(:hover){
-  transform:scale(95%);
+.card11:hover {
+  transform: translate3d(0%, -5%, 0);
+  transition: all 0.5;
+}
+
+.card12:hover {
+  transform: translate3d(0%, -5%, 0);
+  transition: all 0.5;
+}
+
+.cards-4:hover> :not(:hover) {
+  transform: scale(95%);
   opacity: .7;
 }
 
 .cards-ViagemeGastronomia {
   font-size: 27px;
   margin-right: 39.1%;
-  color: white;
+  color: black;
   position: relative;
 }
 
@@ -341,7 +417,22 @@ img {
   width: 34.5%;
   margin-left: 11.99%;
   margin-top: -2.2%;
-  background-color: white;
+  background-color: #003366;
+}
+
+.imgcard4 {
+  width: 285.5px;
+  height: 259px;
+  margin-top: -8%;
+  margin-left: 0.9%;
+}
+
+.letracard {
+  text-align: left;
+  position: relative;
+  margin-right: -6%;
+  color: white;
+  font-size: 16px;
 }
 
 /* Fim cards Viagem & Gastronomia */
@@ -365,7 +456,7 @@ img {
 .ad-es,
 .ad-di {
   color: white;
-  background-color: #2e87cf;
+  background-color: rgb(124, 149, 163);
   padding: 10px;
   text-align: center;
   width: 150px;
